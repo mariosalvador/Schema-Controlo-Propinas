@@ -1,36 +1,5 @@
-import { FileBarChart, FilePieChart, Info, LayoutDashboard, LogOut, UserPlus } from "lucide-react";
+import { element, elementBottom } from "./element";
 
-
-
-const element = [
-    {
-        icon:  <FileBarChart/>,
-        name: 'Inicio'
-    },
-    {
-        icon:  <LayoutDashboard/>,
-        name: 'Painel'
-    },
-    {
-        icon:  <UserPlus/>,
-        name: 'Adicionar'
-    },
-    {
-        icon:  <FilePieChart/>,
-        name: 'Atividade'
-    },
-]
-
-const elementBottom= [
-    {
-        icon:  <Info/>,
-        name: 'Informação'
-    },
-    {
-        icon:  <LogOut/>,
-        name: 'Sair'
-    }
-]
 
 interface ElementSideBarProps {
     isHovered: boolean;

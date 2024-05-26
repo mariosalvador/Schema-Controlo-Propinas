@@ -20,10 +20,7 @@ export const SideBar = () => {
                 </Avatar>
             </div>
 
-
-
             <ElementSideBar isHovered={isHovered} />
-
 
         </div>
     );
