@@ -4,7 +4,7 @@ import { Dashboard } from "@/Pages/home/dashboard/Dashboard";
 
 
 export const HomesRoutes : IRouteProps={
-    path:'/home',
+    path:'/',
     element: HomeLayout,
     visibility:'public',
     children:[

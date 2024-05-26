@@ -21,7 +21,7 @@ export const Login = ()=>{
             </div>
 
             <div className=" w-[99%] p-3 flex flex-col justify-items-center">
-             <button type="submit" className="bg-[#6b7280] text-white  font-semibold rounded-lg w-full p-2" >Acessar</button>
+             <button type="submit" className="bg-[#6b7280cb] text-white text-[18px] font-semibold rounded-lg w-full p-2" >Acessar</button>
             </div>
 
            
