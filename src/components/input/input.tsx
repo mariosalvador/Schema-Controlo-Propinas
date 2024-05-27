@@ -15,7 +15,7 @@ export const Input= ({label,error,name,control,type,...rest}:IInputProps)=>{
                 name={name}
                 render={({field: {ref,onBlur,onChange,value}})=>(
                     <input
-                    className="outline-none p-4 w-[100%] h-11 rounded-lg border-none  text-[#222325] font-normal bg-[#ecf0f5]"
+                    className="outline-none p-4 w-[100%] h-11 rounded-lg border-none focus:ring-[1.5px] ring-[#6b7280cb]    text-[#222325] font-normal bg-[#ecf0f5]"
                       onChange={onChange}
                       onBlur={onBlur}
                       type={type}
