@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
+import { Picture } from "../picture/Picture";
 import { ElementSideBar } from "./elementSideBar";
 
 import { useState } from 'react';
@@ -13,12 +13,7 @@ export const SideBar = () => {
             onMouseLeave={() => setIsHovered(false)}
         >
             
-            <div className="w-[50px] h-[50px] rounded-full flex justify-center">
-                <Avatar>
-                    <AvatarImage src="https://github.com/mariop06.png" alt="@shadcn" />
-                    <AvatarFallback>Mario</AvatarFallback>
-                </Avatar>
-            </div> {/*CRIAR UM COMPONENTE QUE FACA ISSO */}
+            <Picture />
 
             <ElementSideBar isHovered={isHovered} />
 
