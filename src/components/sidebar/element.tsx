@@ -4,29 +4,35 @@ import { FileBarChart, FilePieChart, Info, LayoutDashboard, LogOut, UserPlus } f
 export const element = [
     {
         icon:  <FileBarChart/>,
-        name: 'Inicio'
+        name: 'Inicio',
+        path: '/home'
     },
     {
         icon:  <LayoutDashboard/>,
-        name: 'Painel'
+        name: 'Painel',
+        path: '/home/dashboard'
     },
     {
         icon:  <UserPlus/>,
-        name: 'Adicionar'
+        name: 'Adicionar',
+        path: '/home/more'
     },
     {
         icon:  <FilePieChart/>,
-        name: 'Atividade'
+        name: 'Atividade',
+        path: '/home/activity'
     },
 ]
 
 export const elementBottom= [
     {
         icon:  <Info/>,
-        name: 'Informação'
+        name: 'Informação',
+        path: ''
     },
     {
         icon:  <LogOut/>,
-        name: 'Sair'
+        name: 'Sair',
+        path: ''
     }
 ]
