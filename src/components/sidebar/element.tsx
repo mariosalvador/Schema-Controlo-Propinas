@@ -3,22 +3,22 @@ import { FileBarChart, FilePieChart, Info, LayoutDashboard, LogOut, UserPlus } f
 
 export const element = [
     {
-        icon:  <FileBarChart/>,
+        icon:  <FileBarChart className="stroke-1.5 stroke-current text-white " />,
         name: 'Inicio',
         path: '/home'
     },
     {
-        icon:  <LayoutDashboard/>,
+        icon:  <LayoutDashboard className="stroke-1.5 stroke-current text-white " />,
         name: 'Painel',
         path: '/home/dashboard'
     },
     {
-        icon:  <UserPlus/>,
+        icon:  <UserPlus className="stroke-1.5 stroke-current text-white " />,
         name: 'Adicionar',
         path: '/home/more'
     },
     {
-        icon:  <FilePieChart/>,
+        icon:  <FilePieChart className="stroke-1.5 stroke-current text-white " />,
         name: 'Atividade',
         path: '/home/activity'
     },
@@ -26,12 +26,12 @@ export const element = [
 
 export const elementBottom= [
     {
-        icon:  <Info/>,
+        icon:  <Info className="stroke-1.5 stroke-current text-white " />,
         name: 'Informação',
         path: ''
     },
     {
-        icon:  <LogOut/>,
+        icon:  <LogOut className="stroke-1.5 stroke-current text-white " />,
         name: 'Sair',
         path: ''
     }

@@ -17,6 +17,14 @@ module.exports = {
       },
     },
     extend: {
+      strokeWidth: {
+        '0.5': '0.5',
+        '1': '1',
+        '1.5': '1.5',
+        '2': '2',
+        '3': '3',
+        // Adicione mais conforme necessário
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
