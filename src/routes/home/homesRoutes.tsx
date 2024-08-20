@@ -9,7 +9,7 @@ import { More } from "@/Pages/home/more/More";
 export const HomesRoutes : IRouteProps={
     path:'/',
     element: HomeLayout,
-    visibility:'public',
+    visibility:'private',
     children:[
         {
             path:'/home',

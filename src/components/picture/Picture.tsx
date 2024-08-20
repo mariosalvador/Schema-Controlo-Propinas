@@ -15,7 +15,7 @@ export const Picture:React.FC<IPictureProps>= ({name})=>{
         <div className="flex flex-row-reverse items-center gap-10 " >
         <div className="w-[50px] h-[50px] rounded-full flex justify-center">
             <Avatar>
-                <AvatarImage src="https://github.com/mariop06.png" alt="@shadcn-Picture" />
+                <AvatarImage src="https://github.com/mariosalvador.png" alt="@shadcn-Picture" />
                 <AvatarFallback>{abreviation}</AvatarFallback>
             </Avatar>
         </div>
